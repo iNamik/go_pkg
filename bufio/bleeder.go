@@ -1,4 +1,4 @@
-// Bleeder provides a mechanism for seemlessly exhausting the buffered content of
+// Bleeder provides a mechanism for seamlessly exhausting the buffered content of
 // a bufio.Reader, then delegating further read requests to a separate reader.
 //
 // The original use case for this implementation was an efficient means of
@@ -25,7 +25,7 @@ import (
 )
 
 // NewBleeder returns a new io.Reader that will exhaust (bleed) the specified
-// bufio.Reader, then delegate any further rquests to the specified io.Reader
+// bufio.Reader, then delegate any further requests to the specified io.Reader
 //
 // *NOTE* Although the original use case for the function expects the specified
 // io.Reader to the be the same one that feeds the specified bufio.Reader, there
@@ -40,7 +40,7 @@ type bleeder struct {
 	r  io.Reader
 }
 
-// Read bleeds the bufio.Reader then deletages to the io.Reader
+// Read bleeds the bufio.Reader then delegates to the io.Reader
 func (b *bleeder) Read(p []byte) (n int, err error) {
 	var head int = 0
 	// If bufio.Reader is still active
