@@ -66,7 +66,7 @@ func (b *bleeder) Read(p []byte) (n int, err error) {
 				// Else requested bytes more than available bytes
 				// i.e. The buffered reader can only partially handle the request
 			} else {
-				// Read avialable bytes
+				// Read available bytes
 				n, err = b.br.Read(p[0:avail])
 				// If error or too few bytes read
 				if err != nil || n < avail {
