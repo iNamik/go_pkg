@@ -13,14 +13,18 @@ go_pkg is a convenient place to store Go packages that are too small to warrant 
 PACKAGES
 --------
 
- * **bufio/Bleeder**
+ * **bufio/bleeder/Bleeder**
 
  Bleeder provides a mechanism for seemlessly exhausting the buffered content of
  a bufio.Reader, then delegating further read requests to a separate reader.
 
  * **debug/Ping**
 
- Ping provides a simple debug-printing mechanism
+ Ping provides a simple debug-printing mechanism.
+
+* **runes/IndexRune()**
+
+ IndexRune() helps you deterimine if a rune exists in an array of runes.
 
 
 INSTALL
