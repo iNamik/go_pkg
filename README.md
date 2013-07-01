@@ -26,7 +26,7 @@ PACKAGES
 
  Assert provides a simple assert mechanism.
 
-* **runes/IndexRune()**
+ * **runes/IndexRune()**
 
  IndexRune() helps you deterimine if a rune exists in an array of runes.
 
