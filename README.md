@@ -18,9 +18,13 @@ PACKAGES
  Bleeder provides a mechanism for seemlessly exhausting the buffered content of
  a bufio.Reader, then delegating further read requests to a separate reader.
 
- * **debug/Ping**
+ * **debug/ping/Ping**
 
  Ping provides a simple debug-printing mechanism.
+
+ * **debug/assert/Assert**
+
+ Assert provides a simple assert mechanism.
 
 * **runes/IndexRune()**
 
