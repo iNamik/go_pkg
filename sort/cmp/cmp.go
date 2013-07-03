@@ -26,7 +26,7 @@ type F func(a, b interface{}) int
 type TF func(interface{}) int
 
 // TF::Cmp fulfills the cmp.T interface.
-// NOTE: Yes you can treat functions as interaces, but I can't find documented source of the feature.
+// NOTE: Yes you can treat functions as interfaces, but I can't find documented source of the feature.
 func (f TF) Cmp(v interface{}) int {
 	return f(v)
 }
