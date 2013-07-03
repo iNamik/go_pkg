@@ -34,6 +34,11 @@ PACKAGES
 
  IndexRune() helps you deterimine if a rune exists in an array of runes.
 
+ * **sort/cmp**
+
+ CMP provides a simple comparator interface, with default implementations for all standard comparable types.
+
+
 
 INSTALL
 -------
