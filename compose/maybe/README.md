@@ -20,6 +20,10 @@ Errors
 
 Unlike a pure maybe, in this package a nothing can carry an error.  Although it may be difficult (or impossible) to know where, in a composition, an error has happened, having access to the error may still be useful.  And since we're supporting the "comma err" idiom, it just makes sense to have it.
 
+Examples
+--------
+
+See "maybe_test.go" for many examples of how to use the package.
 
 Reflection
 ----------
