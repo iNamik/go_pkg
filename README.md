@@ -45,6 +45,13 @@ PACKAGES
 
  CMP provides a simple comparator interface, with default implementations for all standard comparable types.
 
+ * **strings/Hasher32**
+
+ Makes generating 32-bit hashes from strings more convenient.
+
+ * **strings/Hasher64**
+
+ Makes generating 64-bit hashes from strings more convenient.
 
 
 INSTALL
